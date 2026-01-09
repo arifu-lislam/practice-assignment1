@@ -60,7 +60,7 @@ nav button:hover {
 .banner-section .banner {
   width: 85%;
   max-width: 1360px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin: 0 auto;
   text-align: center;
   padding: 115px 120px;
@@ -105,4 +105,55 @@ nav button:hover {
 }
 .banner-section .peradise .button1 {
   margin-right: 16px;
+}
+/* card section */
+.cards {
+  background-color: #b8b0b0;
+  margin-bottom: 120px;
+}
+.main-section {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+.text-section {
+  text-align: center;
+  padding-top: 80px;
+}
+.text-section h2 {
+  color: #001931;
+  font-size: 48px;
+  font-style: bold;
+  margin-bottom: 16px;
+}
+.text-section p {
+  color: #627382;
+  font-size: 16px;
+  margin-bottom: 44px;
+}
+.card {
+  width: 322px;
+  height: 300px;
+  padding: 69px 24px 20px 24px;
+  background-color: white;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+.card img {
+  margin-bottom: 16px;
+}
+.card h4 {
+  color: #001931;
+  font-size: 24px;
+  font-weight: 600px;
+  margin-bottom: 16px;
+}
+.card p {
+  color: #627382;
+  font-size: 16px;
+}
+.card-section {
+  display: flex;
+  gap: 24px;
 }
