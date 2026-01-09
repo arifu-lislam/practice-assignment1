@@ -202,7 +202,6 @@ nav button:hover {
   background-color: white;
   max-width: 1600px;
   height: 507px;
-  border: 2px solid red;
 }
 .challange {
   width: 85%;
@@ -232,8 +231,39 @@ nav button:hover {
   color: #627382;
 }
 /* footer section */
-footer {
-  background-color: rgba(54, 146, 188, 1);
+.footer-boost {
+  background-color: #001931;
+  height: 348px;
+  max-width: 1600px;
 }
 .footer-section {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+.footer-links h6 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600px;
+  margin-bottom: 10px;
+}
+.footer-links a i {
+  margin-right: 10px;
+  background-color: white;
+}
+.footer-last {
+  color: white;
+}
+.footer-last {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+.footer-last p {
+  margin-top: 20px;
 }
