@@ -157,3 +157,17 @@ nav button:hover {
   display: flex;
   gap: 24px;
 }
+.structure-container {
+  width: 85%;
+  max-width: 1360px;
+  height: 600px;
+  margin: 0 auto;
+  border: 2px solid red;
+  display: flex;
+  gap: 60px;
+}
+.text {
+  align-items: center;
+}
+.text h6 {
+}
