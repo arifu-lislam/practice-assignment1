@@ -30,6 +30,7 @@
 nav ul {
   display: flex;
   gap: 32px;
+  align-items: center;
 }
 .nav-section {
   width: 85%;
@@ -102,6 +103,6 @@ nav button:hover {
   cursor: pointer;
   background-color: none;
 }
-.peradise {
-  gap: 16px;
+.banner-section .peradise .button1 {
+  margin-right: 16px;
 }
