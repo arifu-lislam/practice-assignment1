@@ -109,7 +109,7 @@ nav button:hover {
 /* card section */
 .cards {
   background-color: #b8b0b0;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
 .main-section {
   width: 85%;
@@ -157,14 +157,22 @@ nav button:hover {
   display: flex;
   gap: 24px;
 }
+/* structure section */
+.structure {
+  background-color: white;
+  max-width: 1600px;
+  height: 840px;
+}
 .structure-container {
   width: 85%;
   max-width: 1360px;
   height: 600px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   gap: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .text {
   padding-top: 101px;
@@ -188,4 +196,44 @@ nav button:hover {
 .image-container1 {
   display: flex;
   margin-top: 30px;
+}
+/* challange section */
+.challange-section {
+  background-color: white;
+  max-width: 1600px;
+  height: 507px;
+  border: 2px solid red;
+}
+.challange {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  background-color: #f7f6f2;
+  height: 385px;
+  padding: 0 120px 120px 120px;
+  text-align: center;
+}
+.challange h2 {
+  padding-top: 82px;
+  font-size: 40px;
+  font-size: bold;
+  margin-bottom: 16px;
+}
+.challange .cycle {
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+.challange button {
+  margin-bottom: 16px;
+}
+.challange .bike {
+  font-size: 16px;
+  color: #627382;
+}
+/* footer section */
+footer {
+  background-color: rgba(54, 146, 188, 1);
+}
+.footer-section {
 }
